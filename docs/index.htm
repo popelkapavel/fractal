@@ -1,0 +1,135 @@
+<html>
+<head>
+<title>
+Fractal page
+</title>
+</head>
+<body>
+<hr>
+<h1> <img src=fractal.png />   Fractal </h1>
+<tt>
+Download: (32bit exe) <a href="fractal015.zip"> fractal015.zip</a> <a href="fractal015src.zip"> sources</a> <br> <br> 
+</tt>
+<pre>
+Fractal is simple tool for zooming fractals.
+
+Use mandelbrot, find place, use 'S' key for speedup then hold 'J' key for julia and move mouse.
+Finaly add antialias with 'A' key.
+
+Change colors with '0' for random palette.
+
+Source in C and assembly, makefile for gcc and nasm.
+
+Mouse click:
+left: 2x zoom in 
+drag: zoom rectangle (ctrl => right to left or bottom to top do flip, shift withou aspect)
+right: 2x zoom out (pan)
+wheel: zoom, ctrl or shift move,alt rotate around cursor
+
+Keys:
+F1:  this help
+Esc,q: exit
+F11: full screen (or space, ctrl hides/shows menu)
+m:   menu on/off
+arrow: move by pixels (ctrl+shift rotate)
+PgUp: move by page (PgDown,Delete,End)
+Ins: zoom in (or Enter,Home/Backspace/Num+ zoom out)
+
+r:   reset zoom (or Num-, shift,ctrl also set mandelbrot set)
+j:   julia (shift juliab, ctrl mandelbrot)
+h:   julia 3 (--||--) 
+k:   julia 4 (--||--) 
+n:   julia 16 (--||--) 
+b:   julia 64 (--||--) 
+
+1-9: color and palettes
+~:   rotate rgb (shift reverse palette,ctrl rgb<=>cmy,ctrl+shift invert)
+i:   invert colors,(shift reverse palette)
+d:   double pallete (shift with mirror,ctrl triple)
+c:   contrast (ctrl rgb independent, shift full palette)
+t:   palette modulo on/off
+0:   random palette (or Num0, ctrl invert,alt reverse
+
+<>:  decrease/increase depth 2x (numpad /*)
+[]:  rotate palette (shift 4x,ctrl 8x)
+.,:  decrease/increase depth calculation
+a:   2x2 antialias on/off (ctrl for 3x3,ctrl+shift 4x4)
+s:   4x4 speedup on/off (ctrl for 8x8 nad shift for 16x16)
+u:   flip vertical (o flip horizontal)
+
+f:   save file with dialog (or F2, shift for 2x image size,ctrl 4x ctrl+shift 8x)
+p:   write out###.gif file (ext from save dialog filter)
+
+Command line:
+-f fullscreen (F11)
+-t topmost (F10)
+-a antialias 2x2 (-aa 3x3)
+-s speedup 4x4 (-ss 8x8,-sss 16x16)
+-eb default file filter extension (-eb bmp, -eg gif, -ep pgm,-ea all)
+-c# use # cores (default 2)
+
+
+It is free for any use.
+
+	Pavel Popelka
+
+
+
+ 8.12.2019 - v0.15 - random palette
+30.11.2019 - v0.14 - rotate with ctrl right drag, multi core param, gif save
+ 9.11.2019 - v0.13 - flip with ctrl left drag or with o,u key,contrast c
+29.10.2019 - v0.12 - click in window repaired,triple palette
+28.10.2019 - v0.11 - wheel,rotate palette
+25.10.2019 - v0.10 - first version
+</pre>
+
+<a href="fractal015.zip"> fractal015.zip</a> <a href="fractal015src.zip"> sources</a> <br>
+<a href="fractal014.zip"> fractal014.zip</a> <a href="fractal014src.zip"> sources</a> <br>
+<a href="fractal013.zip"> fractal013.zip</a> <a href="fractal013src.zip"> sources</a> <br>
+<a href="fractal012.zip"> fractal012.zip</a> <a href="fractal012src.zip"> sources</a> <br> 
+<a href="fractal011.zip"> fractal011.zip</a> <a href="fractal011src.zip"> sources</a> <br> 
+<a href="fractal010.zip"> fractal010.zip</a> <a href="fractal010src.zip"> sources</a> <br> 
+<br>
+Screenshots
+<br>
+<a href="fractal01.png">01</a>
+<a href="fractal02.png">02</a>
+<a href="fractal03.png">03</a>
+<a href="fractal04.png">04</a>
+<a href="fractal05.png">05</a>
+<a href="fractal06.png">06</a>
+<a href="fractal07.png">07</a>
+<a href="fractal08.png">08</a>
+<a href="fractal09.png">09</a>
+<a href="fractal10.png">10</a>
+<br>
+<a href="fractal11.png">11</a>
+<a href="fractal12.png">12</a>
+<a href="fractal13.png">13</a>
+<a href="fractal14.png">14</a>
+<a href="fractal15.png">15</a>
+<a href="fractal16.png">16</a>
+<a href="fractal17.png">17</a>
+<a href="fractal18.png">18</a>
+<a href="fractal19.png">19</a>
+<a href="fractal20.png">20</a>
+<br>
+<a href="fractal21.png">21</a>
+<a href="fractal22.png">22</a>
+<a href="fractal23.png">23</a>
+<a href="fractal24.png">24</a>
+<a href="fractal25.png">25</a>
+<a href="fractal26.png">26</a>
+<a href="fractal27.png">27</a>
+<a href="fractal28.png">28</a>
+<a href="fractal29.png">29</a>
+<a href="fractal30.png">30</a>
+<br>
+<a href="fractal31.png">31</a>
+<a href="fractal32.png">32</a>
+<a href="fractal33.png">33</a>
+
+<br><br><br><br><br><br><br><br><br>
+<hr>
+</body>
+</html>
